@@ -28,4 +28,7 @@ def transform_data(data):
         row['temperature_f'] = round(fahrenheit, 1)
     print("✅ Data transformerad (Celsius → Fahrenheit)")
     return data
+feature/conflict-test
+print("Laddar data från fil...")
 main
+
