@@ -1,7 +1,7 @@
 import csv
 
 def load_data(filepath):
-    """Läser in data från en CSV-fil."""
+    print("Reading data from CSV file...")
     data = []
     try:
         with open(filepath, 'r') as file:
