@@ -10,3 +10,4 @@ def transform_data(data):
         row['temperature_f'] = round(fahrenheit, 1)
     print("✅ Data transformerad (Celsius → Fahrenheit)")
     return data
+print("Laddar data från fil...")
